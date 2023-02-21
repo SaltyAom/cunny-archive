@@ -1,0 +1,35 @@
+{
+  "name": "@cunny/archive",
+  "version": "1.770.13",
+  "description": "😭😭😭",
+  "author": {
+    "name": "saltyAom",
+    "url": "https://github.com/SaltyAom",
+    "email": "saltyaom@gmail.com"
+  },
+  "main": "./index.js",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.js",
+    "node": "./index.js",
+    "default": "./index.js"
+  },
+  "keywords": [
+    "cunny",
+    "archive",
+    "chobra"
+  ],
+  "homepage": "https://github.com/saltyaom/cunny-archive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saltyaom/cunny-archive"
+  },
+  "bugs": "https://github.com/saltyaom/cunny-archive/issues",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node cunny.js"
+  },
+  "dependencies": {
+    "open": "^8.4.2"
+  }
+}
